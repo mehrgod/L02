@@ -1,0 +1,58 @@
+Script started on Sun 27 Oct 2013 01:34:05 PM EDT
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.058s
+user	0m0.056s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.057s
+user	0m0.057s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.057s
+user	0m0.056s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1[K2
+ring=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.113s
+user	0m0.110s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 2
+ring=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.114s
+user	0m0.111s
+sys	0m0.001s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 2
+ring=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.113s
+user	0m0.110s
+sys	0m0.001s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 2[K10
+ring=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.554s
+user	0m0.553s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 10
+ring=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.555s
+user	0m0.552s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 10
+ring=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.554s
+user	0m0.553s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> exit
+
+Script done on Sun 27 Oct 2013 01:34:40 PM EDT
