@@ -1,0 +1,116 @@
+Script started on Mon 21 Oct 2013 04:23:51 PM EDT
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.062s
+user	0m0.059s
+sys	0m0.001s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.061s
+user	0m0.058s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.061s
+user	0m0.060s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 1[K2
+ring=25464016 ideal=40000000 diff=-14535984 reldiff=-3.633996e-01
+
+real	0m0.337s
+user	0m0.648s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 2
+ring=24013086 ideal=40000000 diff=-15986914 reldiff=-3.996729e-01
+
+real	0m0.343s
+user	0m0.675s
+sys	0m0.003s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 2
+ring=24681499 ideal=40000000 diff=-15318501 reldiff=-3.829625e-01
+
+real	0m0.342s
+user	0m0.664s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 2[K10
+ring=42868075 ideal=200000000 diff=-157131925 reldiff=-7.856596e-01
+
+real	0m1.942s
+user	0m7.541s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 10
+ring=41554908 ideal=200000000 diff=-158445092 reldiff=-7.922255e-01
+
+real	0m1.943s
+user	0m7.526s
+sys	0m0.003s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver 10
+ring=38600930 ideal=200000000 diff=-161399070 reldiff=-8.069954e-01
+
+real	0m1.978s
+user	0m7.757s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> make OPt=_[K[K[KT=-O3
+gcc -c -S -O3 racer.c -o racer-O3.s
+gcc -O3 -c racer-O3.s
+gcc -o raceDriver-O3 -lpthread raceDriver.c racer-O3.o
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 1
+ring=20000000 ideal=20000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.001s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 1[K2
+ring=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 2
+ring=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 2
+ring=40000000 ideal=40000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 2[K10
+ring=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.003s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 10
+ring=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> time ./raceDriver-O3 10
+ring=200000000 ideal=200000000 diff=0 reldiff=0.000000e+00
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.002s
+7]2;mehrdad@mothra.cs.albany.edu:~/CSI500/L02]1;mothra.cs.albany.edu8mehrdad@mothra:~/CSI500/L02> exit
+
+Script done on Mon 21 Oct 2013 04:27:34 PM EDT
